@@ -23,7 +23,6 @@ body{margin:0;min-height:100vh;background:var(--paper);color:var(--ink);font-fam
 .tst::before,.tst::after{content:"";position:absolute;top:0;bottom:0;width:1px;background:var(--hair);pointer-events:none}
 .tst::before{left:clamp(24px,5vw,88px)}
 .tst::after{right:clamp(24px,5vw,88px)}
-.hline{position:absolute;left:0;right:0;height:1px;background:var(--hair);pointer-events:none}
 
 .intro{position:relative;z-index:1;padding-left:clamp(0px,1.6vw,28px)}
 .eyebrow{margin:0 0 22px;font:500 12px/1 var(--mono);letter-spacing:.18em;text-transform:uppercase;color:var(--ink)}
@@ -85,7 +84,6 @@ body{margin:0;min-height:100vh;background:var(--paper);color:var(--ink);font-fam
 </style></head>
 <body>
 <section class="tst" id="testimonials" role="region" aria-roledescription="carousel" aria-labelledby="tst-h">
-  <div class="hline" style="top:50%" aria-hidden="true"></div>
   <div class="intro">
     <p class="eyebrow" id="tst-eyebrow"></p>
     <h2 id="tst-h"></h2>
